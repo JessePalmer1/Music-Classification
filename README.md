@@ -15,4 +15,4 @@ These xml files are processed in dataPreprocessing.py to delete any extra inform
 
 After preprocessing, dataProcessing.py reads the files from the csv, scrambles them and puts them into a new csv (not sure if this is necessary) and then tokenizes each file to represent it as an array of numerical values. It also tokenizes the target values into 0, 1, and 2. The data is then stored in tokenizedData.csv and tokenizedTargets.csv respectively.
 
-Finally, classification takes the data from the tokenized data csv files, pads it to normalize the length (according to the longest file) and trains a keras sequential model.
+Finally, classification takes the data from the tokenized data csv files, pads it with zeros to normalize the length (according to the longest file) and trains a keras sequential model.
