@@ -7,7 +7,7 @@ Classical (target value 1)
 
 Romantic (target value 2)
 
-These are the first three eras of classical music. I might add impressionism at some point, but I wanted to keep it simple.
+These are the first three eras of classical music. I might add impressionism at some point, but I wanted to keep it simple to start.
 
 The data used is not audio but rather sheet music in the format of musicXML (a standard format for representation of a music score in XML format)
 
