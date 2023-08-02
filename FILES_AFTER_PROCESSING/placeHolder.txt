@@ -1,0 +1,2 @@
+The folder FILES_AFTER_PROCESSING holds all the small processed files configured through dataPreprocessing.py
+The files in this folder get deleted every time the script is run
