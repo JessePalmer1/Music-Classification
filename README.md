@@ -46,21 +46,21 @@ modelTesting.py
 - Prints the results
 
 Various folders and csv files:
-FILES_BEFORE_PROCESSING
-- Contains the raw musicXML files of various pieces I chose and downloaded
-FILES_AFTER_PROCESSING
-- The folder that dataPreprocessing.py will store all the processed musicXML files in
-testingData
-- The equivalent of FILES_BEFORE_PROCESSING, but for running modelTesting.py separately
-testingDataAfterProcessing
-- The equivalent of FILES_AFTER_PROCESSING but for when modelTesting.py is run separately
-initialFilesDatabase.csv
-- The database of the initial raw musicXML files names and their respective classification value. THIS MUST BE ENTERED MANUALLY
-processedFilesDatabase.csv
-- The list of processed files and their respective classification values
-database.csv
-- A randomized version of processedFilesDatabase.csv, so the model is trained on data in a random order
-tokenizedData.csv
-- The tokenized data files to train the model. Each row corresponds to one file. Each number is a tokenized character/word using the        'AutoTokenizer' module from the 'transformers' library
-tokenizedTargets.csv
-- The tokenized target values of each file. The 'columns' (each value) of this file corresponds to the rows of tokenizedData.csv
+- FILES_BEFORE_PROCESSING
+    - Contains the raw musicXML files of various pieces I chose and downloaded
+- FILES_AFTER_PROCESSING
+    - The folder that dataPreprocessing.py will store all the processed musicXML files in
+- testingData
+    - The equivalent of FILES_BEFORE_PROCESSING, but for running modelTesting.py separately
+- testingDataAfterProcessing
+    - The equivalent of FILES_AFTER_PROCESSING but for when modelTesting.py is run separately
+- initialFilesDatabase.csv
+    - The database of the initial raw musicXML files names and their respective classification value. THIS MUST BE ENTERED MANUALLY
+- processedFilesDatabase.csv
+    - The list of processed files and their respective classification values
+- database.csv
+    - A randomized version of processedFilesDatabase.csv, so the model is trained on data in a random order
+- tokenizedData.csv
+    - The tokenized data files to train the model. Each row corresponds to one file. Each number is a tokenized character/word using the 'AutoTokenizer' module from the 'transformers' library
+- tokenizedTargets.csv
+    - The tokenized target values of each file. The 'columns' (each value) of this file corresponds to the rows of tokenizedData.csv
